@@ -46,6 +46,8 @@
             <%= f.input :saying, :label => "What do you want to say?", :placeholder => "Inspire us!" %>
             <br />
             <%= f.input :author, :label => "Who said it?", :placeholder => "Cite your source" %>
+            <br />
+            <%= f.input :category_id, :collection => Category.all %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

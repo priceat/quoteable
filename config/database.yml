@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: splurty_development
+  database: splurty_2_development
   pool: 5
   username: postgres
   password: password
